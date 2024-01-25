@@ -1,8 +1,30 @@
-header {
-    width: 50%;
+/* Removing default margin and padding */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    ;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
 }
 
 h1 {
     border: 2px red dashed;
     width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+main {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+    width: 40ch;
+    /*40 characters wide*/
 }
