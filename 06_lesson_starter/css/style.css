@@ -1,0 +1,22 @@
+body {
+    padding: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 2rem; */
+
+}
+
+/* input, button {
+    font: inherit;
+} */
+
+p {
+    text-indent: 2em;
+    text-decoration: underline;
+    text-transform: capitalize;
+    /* text-align: justify; */
+    line-height: 1.5;
+    /* letter-spacing: 0.1em; */
+    /* word-spacing: 0.10em; */
+    font-weight: 700;
+    font-style: italic;
+}
