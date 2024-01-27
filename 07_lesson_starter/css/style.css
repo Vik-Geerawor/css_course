@@ -1,7 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 body {
     padding: 10%;
     font-size: 2rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Dancing Script', cursive;  
 }
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(214, 100%, 50%);
+}
+
+/* equal precedence */
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: hsla(214, 100%, 50%, 0.8);
+    background: gold;
+}
+
+a:active {
+    color: red;
+}
+
+/* Does not work
+a:visited:hover {
+    color: hsla(300, 100%, 25%, 0.507)
+} 
+*/
